@@ -3,14 +3,13 @@ import { groups } from '@/models/groups';
 export default function GroupsPage() {
   return (
     <div>
-      <h1>Groups</h1>
-      <ul>
+      <ul className="px-8">
         {groups.map((group, index) => (
-          <li key={index}>
-            <h2>{group.name}</h2>
-            <p><b>Location:</b> {group.venue_name}</p>
-            <p><b>Entry:</b> ${group.entry_fee}</p>
-            <p><b>Schedule:</b> {group.day_of_week} at {group.time}</p>
+          <li className="m-4" key={index}>
+            <h2 className="text-xl font-bold">{group.name}</h2>
+            <p className="ml-4 text-md"><b>Location</b> - {group.venue_name} ({group.venue_address.city}, {group.venue_address.state})</p>
+            <p className="ml-4 text-md"><b>Entry</b> - {group.entry_fee == "Free" ? "Free" : `\$${group.entry_fee}`}</p>
+            <p className="ml-4 text-md"><b>Schedule</b> - {group.day_of_week} at {group.time}</p>
           </li>
         ))}
       </ul>

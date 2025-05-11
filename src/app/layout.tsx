@@ -23,9 +23,11 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body
-        className={`${openSans.variable} ${openSans.variable} antialiased text-gray-100`}>
-        <div className="bg-[#242424] p-8 md:border-2 md:border-gray-300 md:m-12 md:p-12 md:max-w-6xl md:place-self-center">
-          {children}
+        className={`${openSans.className} antialiased text-gray-300 `}>
+        <div className="flex md:justify-center min-h-screen min-w-screen">
+          <div className="flex-grow bg-[#242424] p-8 md:border-2 md:border-[#323232] md:m-12 md:p-12 md:max-w-6xl">
+            {children}
+          </div>
         </div>
       </body>
     </html>

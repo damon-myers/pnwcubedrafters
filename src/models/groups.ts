@@ -49,14 +49,14 @@ export const groups: GroupMetadata[] = [
     day_of_week: "Monday",
     time: "6:00PM",
     entry_fee: 10,
-    venue_name: "Guardian Games",
+    venue_name: "Wayward City Games",
     venue_address: {
-      street: "345 SE Taylor St",
-      city: "Portland",
-      state: "OR",
-      zip: "97214",
-      lat: 45.515354223938296,
-      lng: -122.66214899579316
+      street: "8050 E Mill Plain Blvd",
+      city: "Vancouver",
+      state: "WA",
+      zip: "98664",
+      lat: 45.62526151479038,
+      lng: -122.58994285066382
     }
   },
 ];
