@@ -3,7 +3,7 @@ import { groups } from '@/models/groups';
 export default function GroupsPage() {
   return (
     <div>
-      <h1>Cubes</h1>
+      <h1>Groups</h1>
       <ul>
         {groups.map((group, index) => (
           <li key={index}>

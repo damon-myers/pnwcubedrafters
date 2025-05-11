@@ -19,10 +19,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body
-        className={`${openSans.variable} ${openSans.variable} antialiased`}
-      >
-        {children}
+        className={`${openSans.variable} ${openSans.variable} antialiased text-gray-100`}>
+        <div className="bg-[#242424] p-8 md:border-2 md:border-gray-300 md:m-12 md:p-12 md:max-w-6xl md:place-self-center">
+          {children}
+        </div>
       </body>
     </html>
   );
