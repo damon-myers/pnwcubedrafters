@@ -15,7 +15,8 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-4">
           Already interested?
         </h1>
-        <p>Head to the <a href="/locations" className="text-blue-300 hover:underline">locations</a> page to find a game near you, or join us on <a href="https://discord.gg/h45vZ3Hr8x" className="text-blue-300 hover:underline">Discord</a> to ask questions.
+        <p className="text-lg mb-4">
+          Head to the <a href="/locations" className="text-blue-300 hover:underline">locations</a> page to find a game near you, or join us on <a href="https://discord.gg/h45vZ3Hr8x" className="text-blue-300 hover:underline">Discord</a> to ask questions.
         </p>
         <ul></ul>
       </div>

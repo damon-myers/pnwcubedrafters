@@ -2,6 +2,8 @@ import { Address } from "./address";
 
 export interface GroupMetadata {
   id: string;
+  image_url: string;
+  image_alt: string;
   name: string;
   venue_name: string;
   venue_address: Address;
@@ -13,7 +15,9 @@ export interface GroupMetadata {
 export const groups: GroupMetadata[] = [
   {
     id: "gg_wednesday",
-    name: "Guardian Games - Wednesday",
+    image_url: "/images/guardian_games.webp",
+    image_alt: "Guardian Games Portland Logo",
+    name: "Wednesday @ Guardian Games",
     day_of_week: "Wednesday",
     time: "6:15PM",
     entry_fee: "Free",
@@ -25,11 +29,13 @@ export const groups: GroupMetadata[] = [
       zip: "97214",
       lat: 45.515354223938296,
       lng: -122.66214899579316
-    }
+    },
   },
   {
     id: "gg_weekend",
-    name: "Guardian Games - Weekend",
+    image_url: "/images/guardian_games.webp",
+    image_alt: "Guardian Games Portland Logo",
+    name: "Weekend @ Guardian Games",
     day_of_week: "Saturday/Sunday",
     time: "2:00PM",
     entry_fee: "Free",
@@ -45,7 +51,9 @@ export const groups: GroupMetadata[] = [
   },
   {
     id: "wayward",
-    name: "Wayward City Games",
+    image_url: "/images/wayward_city.jpg",
+    image_alt: "Wayward City Games Logo",
+    name: "Monday @ Wayward City Games",
     day_of_week: "Monday",
     time: "6:00PM",
     entry_fee: 10,

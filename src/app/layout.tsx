@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
+import NavMenu from "@/components/NavMenu";
+
 const openSans = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
@@ -23,10 +25,13 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body
-        className={`${openSans.className} antialiased text-gray-300 `}>
+        className={`${openSans.className} antialiased text-gray-300`}>
         <div className="flex md:justify-center min-h-screen min-w-screen">
           <div className="flex-grow bg-[#242424] p-8 md:border-2 md:border-[#323232] md:m-12 md:p-12 md:max-w-6xl">
-            {children}
+            <NavMenu />
+            <div>
+              {children}
+            </div>
           </div>
         </div>
       </body>

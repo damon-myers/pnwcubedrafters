@@ -1,18 +1,16 @@
+import LocationComponent from '@/components/LocationComponent';
+
 import { groups } from '@/models/groups';
 
-export default function GroupsPage() {
+export default function LocationsPage() {
   return (
     <div>
-      <ul className="px-8">
+      <h1 className='font-bold text-3xl mb-4'>Locations & Schedule</h1>
+      <div className="flex flex-col">
         {groups.map((group, index) => (
-          <li className="m-4" key={index}>
-            <h2 className="text-xl font-bold">{group.name}</h2>
-            <p className="ml-4 text-md"><b>Location</b> - {group.venue_name} ({group.venue_address.city}, {group.venue_address.state})</p>
-            <p className="ml-4 text-md"><b>Entry</b> - {group.entry_fee == "Free" ? "Free" : `\$${group.entry_fee}`}</p>
-            <p className="ml-4 text-md"><b>Schedule</b> - {group.day_of_week} at {group.time}</p>
-          </li>
+          <LocationComponent key={index} group={group} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
