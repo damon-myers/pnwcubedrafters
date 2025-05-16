@@ -23,8 +23,8 @@ export default function Home() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-4">What is Cube?</h1>
         <p className="text-lg mb-4">
-          <a href="https://luckypaper.co/what-is-a-cube/" className="text-blue-300 hover:underline">Cube</a> is a way to play Magic: the Gathering in which players build decks from a curated set of cards known as a cube.
-          A cube might be themed around a specific format, set, mechanic, or even <a href="https://cubecobra.com/cube/overview/100-ornithopters" className="text-blue-300 hover:underline">a single card</a>.
+          <a href="https://luckypaper.co/what-is-a-cube/" target="_blank" className="text-blue-300 hover:underline">Cube</a> is a way to play Magic: the Gathering in which players build decks from a curated set of cards known as a cube.
+          A cube might be themed around a specific format, set, mechanic, or even <a href="https://cubecobra.com/cube/overview/100-ornithopters" target="_blank" className="text-blue-300 hover:underline">a single card</a>.
           This makes Cube the ideal way to tailor your game to the aspects of the Magic that you enjoy the most, while avoiding those that you don't.
         </p>
         <p className="text-lg mb-4">
@@ -41,16 +41,16 @@ export default function Home() {
         </p>
         <ul className="list-disc px-8">
           <li className="text-lg mb-4">
-            <a href="https://discord.gg/h45vZ3Hr8x" className="text-blue-300 hover:underline">PNW Cube Drafters Discord</a> - Our community's Discord server. We'll happily answer any questions you have!
+            <a href="https://discord.gg/h45vZ3Hr8x" target="_blank" className="text-blue-300 hover:underline">PNW Cube Drafters Discord</a> - Our community's Discord server. We'll happily answer any questions you have!
           </li>
           <li className="text-lg mb-4">
-            <a href="https://luckypaper.co/podcast/" className="text-blue-300 hover:underline">Lucky Paper Radio</a> - A podcast made by cubers in Baltimore, MD. Their website is a treasure trove of resources on Cube design and play.
+            <a href="https://luckypaper.co/podcast/" target="_blank" className="text-blue-300 hover:underline">Lucky Paper Radio</a> - A podcast made by cubers in Baltimore, MD. Their website is a treasure trove of resources on Cube design and play.
           </li>
           <li className="text-lg mb-4">
-            <a href="https://www.reddit.com/r/mtgcube/" className="text-blue-300 hover:underline">r/mtgcube</a> - The subreddit for Cube players. Mostly focused on designing cubes and evaluating cards.
+            <a href="https://discord.com/invite/mtg-cube-talk-263828508126609420" target="_blank" className="text-blue-300 hover:underline">MTG Cube Talk Discord</a> - A Discord server with Cube players from all over the world. Most Cube conversations happen here.
           </li>
           <li className="text-lg mb-4">
-            <a href="https://discord.com/invite/mtg-cube-talk-263828508126609420" className="text-blue-300 hover:underline">MTG Cube Talk Discord</a> - A Discord server with Cube players from all over the world. Most Cube conversations happen here.
+            <a href="https://www.reddit.com/r/mtgcube/" target="_blank" className="text-blue-300 hover:underline">r/mtgcube</a> - The subreddit for Cube players. Mostly focused on designing cubes and evaluating cards.
           </li>
         </ul>
       </div>
