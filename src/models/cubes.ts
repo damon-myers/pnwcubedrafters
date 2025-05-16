@@ -7,7 +7,7 @@ export interface CubeMetadata {
   image_alt: string;
 }
 
-const cubes: CubeMetadata[] = [
+export const cubes: CubeMetadata[] = [
   {
     "cubeCobraId": "cinnamon",
     "name": "Cinnamon",
