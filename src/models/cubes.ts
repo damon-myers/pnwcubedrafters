@@ -1,135 +1,62 @@
-enum CubeFormat {
-  powered = "Powered Vintage",
-  vintage = "Vintage",
-  legacy = "Legacy",
-  eternal = "Eternal",
-  modern = "Modern",
-  pauper = "Pauper",
-  commander = "Commander",
-  clownshoes = "Clownshoes",
-  themed = "Themed",
-  custom = "Custom",
-  set = "Set",
-  desert = "Desert",
-}
-
-interface CubeMetadata {
+export interface CubeMetadata {
   name: string;
   curator: string;
   cubeCobraId: string;
-  format: CubeFormat
+  format: string;
+  image_url: string;
+  image_alt: string;
 }
 
-export const cubes: CubeMetadata[] = [
+const cubes: CubeMetadata[] = [
   {
-    name: "Cinnamon",
-    curator: "hotmatcha",
-    cubeCobraId: "cinnamon",
-    format: CubeFormat.eternal,
+    "cubeCobraId": "cinnamon",
+    "name": "Cinnamon",
+    "curator": "hotmatcha",
+    "format": "Eternal",
+    "image_url": "images/cubes/cinnamon.png",
+    "image_alt": "whims of the fates [bng-115] by Seb McKinnon"
   },
   {
-    name: "Tomato Soup",
-    curator: "hotmatcha",
-    cubeCobraId: "tomato",
-    format: CubeFormat.modern,
+    "cubeCobraId": "tomatosoup",
+    "name": "Tomato Soup Cube",
+    "curator": "hotmatcha",
+    "format": "Unpowered Modern",
+    "image_url": "images/cubes/tomatosoup.png",
+    "image_alt": "huntmaster of the fells [dka-140] by Chris Rahn"
   },
   {
-    name: "No Limit Vintage",
-    curator: "Joking101",
-    cubeCobraId: "NoLimitVintage",
-    format: CubeFormat.powered,
+    "cubeCobraId": "MISYQ",
+    "name": "milo's synergy cube",
+    "curator": "insectoid",
+    "format": "Eternal",
+    "image_url": "images/cubes/MISYQ.png",
+    "image_alt": "arcbound ravager [dst-100] by Carl Critchlow"
   },
   {
-    name: "Hyphen's Cube",
-    curator: "Hyphenated",
-    cubeCobraId: "butts",
-    format: CubeFormat.powered,
+    "cubeCobraId": "21sik",
+    "name": "Pro Tour Cube (2018)",
+    "curator": "slayerbfm",
+    "format": "Eternal",
+    "image_url": "images/cubes/21sik.png",
+    "image_alt": "baneslayer angel [m10-4] by Greg Staples"
   },
   {
-    name: "PNWednesday Cube",
-    curator: "mxnoqwerty",
-    cubeCobraId: "pnw-wednesday",
-    format: CubeFormat.eternal,
+    "cubeCobraId": "NoLimitVintage",
+    "name": "No Limit Vintage",
+    "curator": "joking101",
+    "format": "Powered Vintage",
+    "image_url": "images/cubes/NoLimitVintage.png",
+    "image_alt": "contract from below [leb-97] by Douglas Shuler"
   },
   {
-    name: "milo's synergy cube",
-    curator: "insectoid",
-    cubeCobraId: "MISYQ",
-    format: CubeFormat.eternal,
-  },
-  {
-    name: "Pro Tour Cube (2018)",
-    curator: "Slayerbfm",
-    cubeCobraId: "21sik",
-    format: CubeFormat.eternal,
-  },
-  {
-    name: '"Cubey" the Eternal Cube',
-    curator: "Datahack",
-    cubeCobraId: "cubey",
-    format: CubeFormat.vintage,
-  },
-  {
-    name: "Enchanted Evening",
-    curator: "rorystraubel",
-    cubeCobraId: "enchanted-evening",
-    format: CubeFormat.themed
-  },
-  {
-    name: "Lorwyn/Morningtide Set Cube",
-    curator: "Datahack",
-    cubeCobraId: "kwu",
-    format: CubeFormat.set,
-  },
-  {
-    name: "Shadowmoor/Eventide Set Cube",
-    curator: "Datahack",
-    cubeCobraId: "shadow",
-    format: CubeFormat.set,
-  },
-  {
-    name: "Another 100 Ornithopters",
-    curator: "Datahack",
-    cubeCobraId: "2x100",
-    format: CubeFormat.themed,
-  },
-  {
-    name: "The Blizzard Cube",
-    curator: "Datahack",
-    cubeCobraId: "Blizzard",
-    format: CubeFormat.desert,
-  },
-  {
-    name: "Rude Boy Combo Cube",
-    curator: "Juliomacielbr",
-    cubeCobraId: "45f799a8-a70f-44e1-8dc1-0bf568a134e1",
-    format: CubeFormat.themed,
-  },
-  {
-    name: "Nostalgia Remastered - 450",
-    curator: "gchant",
-    cubeCobraId: "121af6e7-e221-4279-8926-949f8f09b92a",
-    format: CubeFormat.powered,
-  },
-  {
-    name: "5c Magix",
-    curator: "dizane",
-    cubeCobraId: "5cmagix",
-    format: CubeFormat.powered,
-  },
-  {
-    name: "Gems in the Rough",
-    curator: "Datahack",
-    cubeCobraId: "Gems",
-    format: CubeFormat.pauper,
-  },
-  {
-    name: "Zurishimi's Cube",
-    curator: "zurishimi",
-    cubeCobraId: "33cbdee8-e022-4620-affb-035b379b9a7a",
-    format: CubeFormat.legacy,
+    "cubeCobraId": "butts",
+    "name": "Hyphen's Cube",
+    "curator": "hyphenated",
+    "format": "Vintage",
+    "image_url": "images/cubes/butts.png",
+    "image_alt": "mana vault [4ed-334] by Mark Tedin"
   }
-];
+]
 
 export const cubeById = Object.fromEntries(
   cubes.map((cube) => [cube.cubeCobraId, cube])
