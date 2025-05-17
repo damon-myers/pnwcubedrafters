@@ -3,7 +3,6 @@ import GroupSelectionComponent from '@/components/GroupSelection';
 import { groupCubes } from '@/models/groupCubes';
 import { ALL_GROUPS } from '@/models/groups';
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense } from 'react';
 
 import { cubes, getCubeById as cubesById } from '@/models/cubes';
 
@@ -59,7 +58,7 @@ export default function CubeGallery() {
   const selectedCubes = getCubesForGroup(selectedGroup);
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <div>
       <GroupSelectionComponent
         selectedGroup={selectedGroup}
         onSelectGroup={handleSelectGroup}
@@ -72,6 +71,6 @@ export default function CubeGallery() {
           <CubeCard cube={cube} key={cube.cubeCobraId} />
         ))}
       </div>
-    </Suspense>
+    </div>
   );
 }
