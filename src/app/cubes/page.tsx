@@ -2,9 +2,8 @@
 import CubeCard from '@/components/CubeCard';
 import GroupSelectionComponent from '@/components/GroupSelection';
 import { cubes, getCubeById as cubesById } from '@/models/cubes';
-import { useSearchParams, useRouter } from "next/navigation";
-import { groups } from "@/models/groups";
 import { groupCubes } from '@/models/groupCubes';
+import { useRouter, useSearchParams } from "next/navigation";
 
 const getRandomWord = () => {
   const words = [
