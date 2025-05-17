@@ -64,7 +64,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   };
 
   console.log(`Fetched metadata for ${cubes.length} cubes`);
-  const outputDir = path.join(process.cwd(), 'cube_meta');
+  const outputDir = path.join(process.cwd(), 'src', 'data');
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }

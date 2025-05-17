@@ -1,0 +1,164 @@
+[
+  {
+    "cubeCobraId": "cinnamon",
+    "name": "Cinnamon",
+    "curator": "hotmatcha",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/cinnamon.png",
+    "imageAlt": "whims of the fates [bng-115] by Seb McKinnon"
+  },
+  {
+    "cubeCobraId": "tomatosoup",
+    "name": "Tomato Soup Cube",
+    "curator": "hotmatcha",
+    "format": "Unpowered Modern",
+    "cardCount": 423,
+    "imageUrl": "images/cubes/tomatosoup.png",
+    "imageAlt": "huntmaster of the fells [dka-140] by Chris Rahn"
+  },
+  {
+    "cubeCobraId": "MISYQ",
+    "name": "milo's synergy cube",
+    "curator": "insectoid",
+    "format": "Eternal",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/MISYQ.png",
+    "imageAlt": "arcbound ravager [dst-100] by Carl Critchlow"
+  },
+  {
+    "cubeCobraId": "21sik",
+    "name": "Pro Tour Cube (2018)",
+    "curator": "slayerbfm",
+    "format": "Eternal",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/21sik.png",
+    "imageAlt": "baneslayer angel [m10-4] by Greg Staples"
+  },
+  {
+    "cubeCobraId": "NoLimitVintage",
+    "name": "No Limit Vintage",
+    "curator": "joking101",
+    "format": "Powered Vintage",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/NoLimitVintage.png",
+    "imageAlt": "contract from below [leb-97] by Douglas Shuler"
+  },
+  {
+    "cubeCobraId": "butts",
+    "name": "Hyphen's Cube",
+    "curator": "hyphenated",
+    "format": "Vintage",
+    "cardCount": 710,
+    "imageUrl": "images/cubes/butts.png",
+    "imageAlt": "mana vault [4ed-334] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "7yxa",
+    "name": "Desert Cube",
+    "curator": "slayerbfm",
+    "format": "Desert ",
+    "cardCount": 500,
+    "imageUrl": "images/cubes/7yxa.png",
+    "imageAlt": "desert nomads [arn-38] by Christopher Rush"
+  },
+  {
+    "cubeCobraId": "33cbdee8-e022-4620-affb-035b379b9a7a",
+    "name": "Zurishmi's Cube",
+    "curator": "zurishmi",
+    "format": "Legacy+",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/33cbdee8-e022-4620-affb-035b379b9a7a.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "cubey",
+    "name": "“Cubey” the Eternal Cube",
+    "curator": "datahack",
+    "format": "Eternal",
+    "cardCount": 555,
+    "imageUrl": "images/cubes/cubey.png",
+    "imageAlt": "awakening zone [2xm-153] by Johann Bodin"
+  },
+  {
+    "cubeCobraId": "enchanted-evening",
+    "name": "Enchanted Evening",
+    "curator": "rorystraubel",
+    "format": "Unpowered undefined",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/enchanted-evening.png",
+    "imageAlt": "enchanted evening [plst-shm-140] by Rebecca Guay"
+  },
+  {
+    "cubeCobraId": "kwu",
+    "name": "Lorwyn/Morningtide Set Cube",
+    "curator": "datahack",
+    "format": "Set",
+    "cardCount": 993,
+    "imageUrl": "images/cubes/kwu.png",
+    "imageAlt": "door of destinies [c17-208] by Larry MacDougall"
+  },
+  {
+    "cubeCobraId": "shadow",
+    "name": "Shadowmoor/ Eventide Set Cube",
+    "curator": "datahack",
+    "format": "Set",
+    "cardCount": 1129,
+    "imageUrl": "images/cubes/shadow.png",
+    "imageAlt": "mistmeadow witch [c13-230] by Greg Staples"
+  },
+  {
+    "cubeCobraId": "2x100",
+    "name": "Another 100 Ornithopters",
+    "curator": "datahack",
+    "format": "Eternal",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/2x100.png",
+    "imageAlt": "ornithopter [aer-167] by Mathias Kollros"
+  },
+  {
+    "cubeCobraId": "Blizzard",
+    "name": "The Blizzard Cube",
+    "curator": "datahack",
+    "format": "Eternal",
+    "cardCount": 432,
+    "imageUrl": "images/cubes/Blizzard.png",
+    "imageAlt": "windbrisk heights [ltc-345] by Jokubas Uogintas"
+  },
+  {
+    "cubeCobraId": "45f799a8-a70f-44e1-8dc1-0bf568a134e1",
+    "name": "Rude Boy Combo Cube",
+    "curator": "juliomacielbr",
+    "format": "Eternal",
+    "cardCount": 375,
+    "imageUrl": "images/cubes/45f799a8-a70f-44e1-8dc1-0bf568a134e1.png",
+    "imageAlt": "omniscience [p22-2] by Alayna Danner"
+  },
+  {
+    "cubeCobraId": "121af6e7-e221-4279-8926-949f8f09b92a",
+    "name": "Nostalgia Remastered - 450",
+    "curator": "gchant",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/121af6e7-e221-4279-8926-949f8f09b92a.png",
+    "imageAlt": "pure reflection [inv-27] by Scott M. Fischer"
+  },
+  {
+    "cubeCobraId": "5cmagix",
+    "name": "5c Magix",
+    "curator": "dizane",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/5cmagix.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "Gems",
+    "name": "Gems in the Rough",
+    "curator": "datahack",
+    "format": "Pauper Vintage",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/Gems.png",
+    "imageAlt": "moss diamond [cmr-327] by Lindsey Look"
+  }
+]

@@ -7,6 +7,7 @@ export const groupCubes: Record<string, Array<string>> = {
     "21sik", // Pro Tour Cube (2018)
     "NoLimitVintage",
     "butts", // Hyphenated's Vintage Cube
+    "7yxa", // slayerbfm's Desert Cube
   ],
   "gg_weekend": [
     "33cbdee8-e022-4620-affb-035b379b9a7a", // Zurishimi
