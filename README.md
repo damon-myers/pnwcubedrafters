@@ -22,3 +22,9 @@ To make a production build:
 ```bash
 npm run build
 ```
+
+Then deploy:
+
+```bash
+npm run deploy
+```
