@@ -17,7 +17,7 @@ export interface GroupMetadata {
 export const groups: GroupMetadata[] = [
   {
     id: "gg_wednesday",
-    image_url: "/images/groups/guardian_games.webp",
+    image_url: "images/groups/guardian_games.webp",
     image_alt: "Guardian Games Portland Logo",
     name: "Guardian Games - Wednesday",
     day_of_week: "Wednesday",
@@ -35,7 +35,7 @@ export const groups: GroupMetadata[] = [
   },
   {
     id: "gg_weekend",
-    image_url: "/images/groups/guardian_games.webp",
+    image_url: "images/groups/guardian_games.webp",
     image_alt: "Guardian Games Portland Logo",
     name: "Guardian Games - Weekend",
     day_of_week: "Saturday/Sunday",
@@ -53,7 +53,7 @@ export const groups: GroupMetadata[] = [
   },
   {
     id: "wayward",
-    image_url: "/images/groups/wayward_city.jpg",
+    image_url: "images/groups/wayward_city.jpg",
     image_alt: "Wayward City Games Logo",
     name: "Wayward City Games",
     day_of_week: "Monday",
