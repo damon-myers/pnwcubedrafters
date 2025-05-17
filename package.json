@@ -8,7 +8,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.8",
