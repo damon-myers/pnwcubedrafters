@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { GroupMetadata } from "@/models/groups";
 
-import { Cube, MapPin, Clock, CurrencyDollar } from "@phosphor-icons/react";
+import { CubeIcon, MapPinIcon, CurrencyDollarIcon, ClockIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 
 type LocationProps = {
@@ -20,7 +20,7 @@ export default function Location({ group }: LocationProps) {
           <ul className="list-none py-2">
             <li>
               <div className="flex items-center text-lg p-2">
-                <Clock size={28} className="mr-2" />
+                <ClockIcon size={28} className="mr-2" />
                 <span><b>{group.day_of_week}</b> at <b>{group.time}</b></span>
               </div>
               <div className="flex items-center text-lg p-2">
@@ -30,7 +30,7 @@ export default function Location({ group }: LocationProps) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <MapPin size={28} className="mr-2" />
+                  <MapPinIcon size={28} className="mr-2" />
                   <div>
                     <p>{group.venue_name}</p>
                     <span>{group.venue_address.street}, {group.venue_address.city}, {group.venue_address.state}</span>
@@ -38,7 +38,7 @@ export default function Location({ group }: LocationProps) {
                 </Link>
               </div>
               <div className="flex items-center text-lg p-2">
-                <CurrencyDollar size={28} className="mr-2" />
+                <CurrencyDollarIcon size={28} className="mr-2" />
                 <span>{group.entry_fee == "Free" ? "Free" : group.entry_fee}</span>
               </div>
               <div className="flex items-center text-lg p-2">
@@ -47,7 +47,7 @@ export default function Location({ group }: LocationProps) {
                   href={`/cubes?group_id=${group.id}`}
                   rel="noopener noreferrer"
                 >
-                  <Cube className="mr-2" size={28} />
+                  <CubeIcon className="mr-2" size={28} />
                   <span>Cubes</span>
                 </Link>
               </div>
