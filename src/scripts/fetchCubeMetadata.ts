@@ -50,8 +50,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         name: cubeMetadata["name"],
         curator: cubeMetadata["owner"]["usernameLower"],
         format: formatString ? formatString : "Eternal",
-        image_url: imageUrl,
-        image_alt: imageAlt,
+        cardCount: cubeMetadata["cardCount"],
+        imageUrl,
+        imageAlt,
       })
     } catch (error: any) {
       console.error(`Failed to fetch cube metadata for cube: ${cubeCobraId}:`, error.message);

@@ -5,11 +5,11 @@ import { GroupMetadata } from "@/models/groups";
 import { Cube, MapPin, Clock, CurrencyDollar } from "@phosphor-icons/react";
 import Link from "next/link";
 
-type LocationComponentProps = {
+type LocationProps = {
   group: GroupMetadata;
 };
 
-export default function LocationComponent({ group }: LocationComponentProps) {
+export default function Location({ group }: LocationProps) {
   return (
     <div className="my-4 key={index} bg-[#323232] p-4 items-center justify-center">
       <div className="flex flex-col md:flex-row items-center justify-between">
@@ -44,7 +44,7 @@ export default function LocationComponent({ group }: LocationComponentProps) {
               <div className="flex items-center text-lg p-2">
                 <Link
                   className="inline-flex items-center hover:underline hover:text-blue-300"
-                  href={`/cubes/#${group.id}`}
+                  href={`/cubes?group_id=${group.id}`}
                   rel="noopener noreferrer"
                 >
                   <Cube className="mr-2" size={28} />

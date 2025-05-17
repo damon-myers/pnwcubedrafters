@@ -1,4 +1,4 @@
-import LocationComponent from '@/components/LocationComponent';
+import Location from '@/components/Location';
 
 import { groups } from '@/models/groups';
 
@@ -33,7 +33,7 @@ export default function LocationsPage() {
       </p>
       <div className="flex flex-col">
         {groups.map((group, index) => (
-          <LocationComponent key={index} group={group} />
+          <Location key={index} group={group} />
         ))}
       </div>
     </div >
