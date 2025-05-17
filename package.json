@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out -b gh-pages"
+    "deploy": "gh-pages --nojekyll --cname=pnwcubedrafters.com -d out -b gh-pages -f -t"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.8",

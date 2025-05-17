@@ -55,7 +55,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         imageAlt,
       })
     } catch (error) {
-      console.error(`Failed to fetch cube metadata for cube: ${cubeCobraId}:`, error.message);
+      if (error instanceof Error) {
+        console.error(`Failed to fetch cube metadata for cube: ${cubeCobraId}:`, error.message);
+      } else {
+        console.error(`Failed to fetch cube metadata for cube: ${cubeCobraId}:`, error);
+      }
     }
   };
 

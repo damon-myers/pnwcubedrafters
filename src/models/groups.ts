@@ -1,5 +1,7 @@
 import { Address } from "./address";
 
+export const ALL_GROUPS: string = "all-groups";
+
 export interface GroupMetadata {
   id: string;
   image_url: string;

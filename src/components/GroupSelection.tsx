@@ -1,6 +1,6 @@
 "use client";
 import { groups } from "@/models/groups";
-import { ALL_GROUPS } from "@/app/cubes/page"; // Or define ALL_GROUPS locally and pass as prop
+import { ALL_GROUPS } from "@/models/groups";
 
 export default function GroupSelectionComponent({
   selectedGroup,
