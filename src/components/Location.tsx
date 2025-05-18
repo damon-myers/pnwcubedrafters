@@ -4,6 +4,7 @@ import { GroupMetadata } from "@/models/groups";
 
 import { CubeIcon, MapPinIcon, CurrencyDollarIcon, ClockIcon } from "@phosphor-icons/react";
 import Link from "next/link";
+import { groupCubes } from "@/models/groupCubes";
 
 type LocationProps = {
   group: GroupMetadata;
@@ -41,16 +42,18 @@ export default function Location({ group }: LocationProps) {
                 <CurrencyDollarIcon size={28} className="mr-2" />
                 <span>{group.entry_fee == "Free" ? "Free" : group.entry_fee}</span>
               </div>
-              <div className="flex items-center text-lg p-2">
-                <Link
-                  className="inline-flex items-center hover:underline hover:text-blue-300"
-                  href={`/cubes?group_id=${group.id}`}
-                  rel="noopener noreferrer"
-                >
-                  <CubeIcon className="mr-2" size={28} />
-                  <span>Cubes</span>
-                </Link>
-              </div>
+              {groupCubes[group.id].length > 0 && (
+                <div className="flex items-center text-lg p-2">
+                  <Link
+                    className="inline-flex items-center hover:underline hover:text-blue-300"
+                    href={`/cubes?group_id=${group.id}`}
+                    rel="noopener noreferrer"
+                  >
+                    <CubeIcon className="mr-2" size={28} />
+                    <span>Cubes</span>
+                  </Link>
+                </div>
+              )}
             </li>
           </ul>
         </div >

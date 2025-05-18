@@ -23,5 +23,6 @@ export const groupCubes: Record<string, Array<string>> = {
     "121af6e7-e221-4279-8926-949f8f09b92a", // Nostalgia Remastered
     "5cmagix",
     "Gems",
-  ]
+  ],
+  "dapper": []
 }

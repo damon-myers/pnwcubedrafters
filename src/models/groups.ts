@@ -69,4 +69,22 @@ export const groups: GroupMetadata[] = [
       lng: -122.58994285066382
     }
   },
+  {
+    id: "dapper",
+    image_url: "images/groups/dapper-games.png",
+    image_alt: "Dapper Games Logo",
+    name: "Dapper Games",
+    day_of_week: "Friday",
+    time: "6:00PM",
+    entry_fee: 5,
+    venue_name: "Dapper Games",
+    venue_address: {
+      street: "1058 NW State Ave",
+      city: "Chehalis",
+      state: "WA",
+      zip: "98532",
+      lat: 46.67073843889854,
+      lng: -122.97362294305759
+    }
+  },
 ];

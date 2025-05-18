@@ -1,5 +1,6 @@
 "use client";
 import { groups } from "@/models/groups";
+import { groupCubes } from "@/models/groupCubes";
 import { ALL_GROUPS } from "@/models/groups";
 
 export default function GroupSelectionComponent({
@@ -25,7 +26,7 @@ export default function GroupSelectionComponent({
         >
           All
         </button>
-        {groups.map((group) => (
+        {groups.filter(group => groupCubes[group.id].length > 0).map((group) => (
           <button
             key={group.id}
             className={`border-1 border-[#242424] px-4 py-2 text-sm sm:text-base ${hoverClasses} ${selectedGroup === group.id
