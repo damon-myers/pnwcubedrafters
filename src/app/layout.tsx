@@ -27,7 +27,7 @@ export default function RootLayout({
       <body
         className={`${openSans.className} antialiased text-gray-300`}>
         <div className="flex md:justify-center min-h-screen min-w-screen">
-          <div className="flex-grow bg-[#242424] md:border-2 md:border-[#323232] md:m-12 md:p-12 md:max-w-6xl">
+          <div className="flex-grow bg-[#242424] p-4 md:border-2 md:border-[#323232] md:m-12 md:p-12 md:max-w-6xl">
             <NavMenu />
             <div>
               {children}
