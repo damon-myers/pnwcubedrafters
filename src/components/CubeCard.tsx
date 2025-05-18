@@ -8,7 +8,7 @@ type CubeCardProps = {
 export default function CubeCard({ cube }: CubeCardProps) {
   return (
     <Link
-      className="relative flex flex-col justify-end bg-[#323232] border-2 border-[#323232] hover:border-blue-300 h-60 w-80 overflow-hidden"
+      className="h-60 w-80 relative flex flex-col justify-end bg-[#323232] border-2 border-[#323232] hover:border-blue-300 overflow-hidden"
       href={getCubeUrl(cube.cubeCobraId)}
       target="_blank"
       rel="noopener noreferrer"

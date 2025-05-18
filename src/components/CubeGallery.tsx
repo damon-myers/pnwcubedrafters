@@ -58,7 +58,7 @@ export default function CubeGallery() {
   const selectedCubes = getCubesForGroup(selectedGroup);
 
   return (
-    <div>
+    <div className="justify-center items-center flex flex-col">
       <GroupSelectionComponent
         selectedGroup={selectedGroup}
         onSelectGroup={handleSelectGroup}
@@ -66,7 +66,7 @@ export default function CubeGallery() {
       <p className="text-lg mb-5">
         <b>{selectedCubes.length}</b> {getRandomWord()} {selectedCubes.length === 1 ? "cube" : "cubes"}
       </p>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="w-fill mx-auto flex flex-wrap justify-center items-center gap-4 m:gap-8">
         {selectedCubes.map((cube) => (
           <CubeCard cube={cube} key={cube.cubeCobraId} />
         ))}
