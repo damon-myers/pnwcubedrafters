@@ -64,9 +64,9 @@ export default function CubeGallery() {
         onSelectGroup={handleSelectGroup}
       />
       <p className="text-lg mb-5">
-        <b>{selectedCubes.length}</b> {getRandomWord()} {selectedCubes.length === 0 ? "cube" : "cubes"}
+        <b>{selectedCubes.length}</b> {getRandomWord()} {selectedCubes.length === 1 ? "cube" : "cubes"}
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {selectedCubes.map((cube) => (
           <CubeCard cube={cube} key={cube.cubeCobraId} />
         ))}
