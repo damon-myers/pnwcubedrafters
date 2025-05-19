@@ -160,5 +160,68 @@
     "cardCount": 540,
     "imageUrl": "images/cubes/Gems.png",
     "imageAlt": "moss diamond [cmr-327] by Lindsey Look"
+  },
+  {
+    "cubeCobraId": "commander_tribal",
+    "name": "Tri-color Tribal",
+    "curator": "limbless7",
+    "format": "Commander Legacy+",
+    "cardCount": 720,
+    "imageUrl": "images/cubes/commander_tribal.png",
+    "imageAlt": "karona, false god [scg-138] by Matthew D. Wilson"
+  },
+  {
+    "cubeCobraId": "54e54e20-2c6a-4024-b00a-f6f940dcdfaf",
+    "name": "All Hail Lord Yawgmoth",
+    "curator": "limbless7",
+    "format": "Unpowered Legacy",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/54e54e20-2c6a-4024-b00a-f6f940dcdfaf.png",
+    "imageAlt": "yawgmoth, thran physician [mh1-116] by Mark Winters"
+  },
+  {
+    "cubeCobraId": "8fc1d097-0d49-4598-8570-af12690ca15e",
+    "name": "Dapper Sultai Desert",
+    "curator": "limbless7",
+    "format": "Modern",
+    "cardCount": 420,
+    "imageUrl": "images/cubes/8fc1d097-0d49-4598-8570-af12690ca15e.png",
+    "imageAlt": "emrakul, the aeons torn [2x2-335] by Kev Walker"
+  },
+  {
+    "cubeCobraId": "3uqle",
+    "name": "Powered Peasant ",
+    "curator": "limbless7",
+    "format": "Peasant Vintage",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/3uqle.png",
+    "imageAlt": "ambitious farmhand [mid-2] by Bryan Sola"
+  },
+  {
+    "cubeCobraId": "prd4",
+    "name": "Artifact Synergy",
+    "curator": "limbless7",
+    "format": "Vintage",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/prd4.png",
+    "imageAlt": "grim monolith [ulg-126] by Chippy"
+  },
+  {
+    "cubeCobraId": "u7so",
+    "name": "Ravnica",
+    "curator": "limbless7",
+    "format": "Unpowered Modern",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/u7so.png",
+    "imageAlt": "tablet of the guilds [rtr-235] by Nic Klein"
+  },
+  {
+    "cubeCobraId": "eb81b182-0313-4217-b2a0-8862fa39e34f",
+    "name": "Stare in Envy, Esper",
+    "curator": "lycangirl",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/eb81b182-0313-4217-b2a0-8862fa39e34f.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
   }
 ]

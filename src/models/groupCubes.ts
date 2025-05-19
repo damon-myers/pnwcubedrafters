@@ -24,5 +24,13 @@ export const groupCubes: Record<string, Array<string>> = {
     "5cmagix",
     "Gems",
   ],
-  "dapper": []
+  "dapper": [
+    "commander_tribal",
+    "54e54e20-2c6a-4024-b00a-f6f940dcdfaf",
+    "8fc1d097-0d49-4598-8570-af12690ca15e",
+    "3uqle",
+    "prd4",
+    "u7so",
+    "eb81b182-0313-4217-b2a0-8862fa39e34f"
+  ]
 }
