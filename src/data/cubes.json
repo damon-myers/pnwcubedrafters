@@ -223,5 +223,23 @@
     "cardCount": 450,
     "imageUrl": "images/cubes/eb81b182-0313-4217-b2a0-8862fa39e34f.png",
     "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "naughtypauper",
+    "name": "The Naught-y Pauper",
+    "curator": "posertom",
+    "format": "Pauper ",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/naughtypauper.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "5686693d-36d0-43b3-90b0-22ad3f0a8765",
+    "name": "Cube 2.0",
+    "curator": "301traviss",
+    "format": "Eternal",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/5686693d-36d0-43b3-90b0-22ad3f0a8765.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
   }
 ]

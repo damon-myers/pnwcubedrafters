@@ -32,5 +32,9 @@ export const groupCubes: Record<string, Array<string>> = {
     "prd4",
     "u7so",
     "eb81b182-0313-4217-b2a0-8862fa39e34f"
+  ],
+  "al_sports_bar": [
+    "naughtypauper",
+    "5686693d-36d0-43b3-90b0-22ad3f0a8765"
   ]
 }

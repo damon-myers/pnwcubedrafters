@@ -5,10 +5,21 @@ import { GroupMetadata } from "@/models/groups";
 import { CubeIcon, MapPinIcon, CurrencyDollarIcon, ClockIcon } from "@phosphor-icons/react";
 import Link from "next/link";
 import { groupCubes } from "@/models/groupCubes";
+import { DayOfWeek } from "@/models/groups";
 
 type LocationProps = {
   group: GroupMetadata;
 };
+
+const getDaysOfWeekString = (days: DayOfWeek | DayOfWeek[]) => {
+  if (typeof days === "string") {
+    return days;
+  } else if (days.length === 1) {
+    return days[0];
+  } else {
+    return days.join("/");
+  }
+}
 
 export default function Location({ group }: LocationProps) {
   return (
@@ -22,7 +33,7 @@ export default function Location({ group }: LocationProps) {
             <li>
               <div className="flex items-center text-lg p-2">
                 <ClockIcon size={28} className="mr-2" />
-                <span><b>{group.day_of_week}</b> at <b>{group.time}</b></span>
+                <span><b>{getDaysOfWeekString(group.days_of_week)}</b> at <b>{group.time}</b></span>
               </div>
               <div className="flex items-center text-lg p-2">
                 <Link

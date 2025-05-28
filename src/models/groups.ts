@@ -2,6 +2,8 @@ import { Address } from "./address";
 
 export const ALL_GROUPS: string = "all-groups";
 
+export type DayOfWeek = "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" | "Saturday" | "Sunday";
+
 export interface GroupMetadata {
   id: string;
   image_url: string;
@@ -9,7 +11,8 @@ export interface GroupMetadata {
   name: string;
   venue_name: string;
   venue_address: Address;
-  day_of_week: "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" | "Saturday" | "Sunday" | "Saturday/Sunday";
+  frequency?: "Weekly" | "Monthly";
+  days_of_week: DayOfWeek | DayOfWeek[];
   time: string;
   entry_fee: number | "Free";
 }
@@ -20,7 +23,7 @@ export const groups: GroupMetadata[] = [
     image_url: "images/groups/guardian-games.webp",
     image_alt: "Guardian Games Portland Logo",
     name: "Guardian Games - Wednesday",
-    day_of_week: "Wednesday",
+    days_of_week: "Wednesday",
     time: "6:15PM",
     entry_fee: "Free",
     venue_name: "Guardian Games",
@@ -38,7 +41,7 @@ export const groups: GroupMetadata[] = [
     image_url: "images/groups/guardian-games.webp",
     image_alt: "Guardian Games Portland Logo",
     name: "Guardian Games - Weekend",
-    day_of_week: "Saturday/Sunday",
+    days_of_week: ["Saturday", "Sunday"],
     time: "2:00PM",
     entry_fee: "Free",
     venue_name: "Guardian Games",
@@ -56,7 +59,7 @@ export const groups: GroupMetadata[] = [
     image_url: "images/groups/wayward-city.jpg",
     image_alt: "Wayward City Games Logo",
     name: "Wayward City Games",
-    day_of_week: "Monday",
+    days_of_week: "Monday",
     time: "6:00PM",
     entry_fee: 10,
     venue_name: "Wayward City Games",
@@ -74,7 +77,7 @@ export const groups: GroupMetadata[] = [
     image_url: "images/groups/dapper-games.png",
     image_alt: "Dapper Games Logo",
     name: "Dapper Games",
-    day_of_week: "Friday",
+    days_of_week: "Friday",
     time: "6:00PM",
     entry_fee: 5,
     venue_name: "Dapper Games",
@@ -87,4 +90,23 @@ export const groups: GroupMetadata[] = [
       lng: -122.97362294305759
     }
   },
+  {
+    id: "al_sports_bar",
+    image_url: "images/groups/al_sports_bar.jpg",
+    image_alt: "A&L Sports Pub Logo",
+    name: "A&L Sports Bar",
+    frequency: "Monthly",
+    days_of_week: ["Friday", "Saturday"],
+    time: "Varies",
+    entry_fee: 0,
+    venue_name: "A&L Sports Bar",
+    venue_address: {
+      street: "5933 NE Glisan St",
+      city: "Portland",
+      state: "OR",
+      zip: "97213",
+      lat: 45.52687853832296,
+      lng: -122.60260561736582
+    }
+  }
 ];

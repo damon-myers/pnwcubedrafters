@@ -16,7 +16,7 @@ export default function GroupSelectionComponent({
 
   return (
     <div className="flex flex-col gap-2 mb-4">
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 justify-center items-center">
         <button
           className={`border-1 px-4 py-2 text-sm sm:text-base ${hoverClasses} ${selectedGroup === ALL_GROUPS
             ? selectedClasses
