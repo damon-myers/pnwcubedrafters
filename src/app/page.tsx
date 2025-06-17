@@ -1,6 +1,18 @@
+import Head from 'next/head';
+
 export default function Home() {
   return (
     <div>
+      <Head >
+        <title>PNW Cube Drafters</title>
+        <meta name="description" content="A community of Magic: The Gathering players throughout the PNW who play Cube." />
+        <meta name="keywords" content="Magic: The Gathering, mtg, cube, limited, event, draft, community, Portland, Vancouver, Chehalis, OR, WA" />
+        <meta property="og:title" content="PNW Cube Drafters" />
+        <meta property="og:description" content="A community of Magic: The Gathering players throughout the PNW who play Cube." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://pnwcubedrafters.com/" />
+        <link rel="icon" href="/favicon.ico"></link>
+      </Head>
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-4"> Who are we?</h1 >
         <p className="text-lg mb-4">
