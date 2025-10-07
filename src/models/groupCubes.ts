@@ -2,12 +2,12 @@
 export const groupCubes: Record<string, Array<string>> = {
   "gg_wednesday": [
     "cinnamon",
-    "tomatosoup",
+    "endurance",
     "MISYQ", // milo's synergy cube
-    "21sik", // Pro Tour Cube (2018)
-    "NoLimitVintage",
     "butts", // Hyphenated's Vintage Cube
-    "7yxa", // slayerbfm's Desert Cube
+    "3eb3f215-870d-4b5a-8f48-8d4e6e9d35ea", // Clone of The Definite Cube
+    "djgoalie",
+    "Unbound"
   ],
   "gg_weekend": [
     "33cbdee8-e022-4620-affb-035b379b9a7a", // Zurishimi
