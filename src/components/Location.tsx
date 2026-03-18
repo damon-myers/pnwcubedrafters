@@ -51,7 +51,7 @@ export default function Location({ group }: LocationProps) {
               </div>
               <div className="flex items-center text-lg p-2">
                 <CurrencyDollarIcon size={28} className="mr-2" />
-                <span>{group.entry_fee == "Free" ? "Free" : group.entry_fee}</span>
+                <span>{group.entry_fee}</span>
               </div>
               {groupCubes[group.id].length > 0 && (
                 <div className="flex items-center text-lg p-2">
