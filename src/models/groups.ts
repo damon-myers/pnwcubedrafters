@@ -11,10 +11,10 @@ export interface GroupMetadata {
   name: string;
   venue_name: string;
   venue_address: Address;
-  frequency?: "Weekly" | "Monthly";
+  frequency?: "Weekly" | "Monthly" | "Semimonthly";
   days_of_week: DayOfWeek | DayOfWeek[];
   time: string;
-  entry_fee: number | "Free";
+  entry_fee: number;
 }
 
 export const groups: GroupMetadata[] = [
@@ -25,7 +25,7 @@ export const groups: GroupMetadata[] = [
     name: "Guardian Games - Wednesday",
     days_of_week: "Wednesday",
     time: "6:15PM",
-    entry_fee: "Free",
+    entry_fee: 0,
     venue_name: "Guardian Games",
     venue_address: {
       street: "345 SE Taylor St",
@@ -43,7 +43,7 @@ export const groups: GroupMetadata[] = [
     name: "Guardian Games - Weekend",
     days_of_week: ["Saturday", "Sunday"],
     time: "2:00PM",
-    entry_fee: "Free",
+    entry_fee: 0,
     venue_name: "Guardian Games",
     venue_address: {
       street: "345 SE Taylor St",
@@ -107,6 +107,25 @@ export const groups: GroupMetadata[] = [
       zip: "97213",
       lat: 45.52687853832296,
       lng: -122.60260561736582
+    }
+  },
+  {
+    id: "olympic",
+    image_url: "images/groups/olympic-comics-and-cards.png",
+    image_alt: "Gabi's Olympic Comics and Cards",
+    name: "Olympic Comics and Cards",
+    frequency: "Semimonthly",
+    days_of_week: ["Sunday"],
+    time: "12:30PM",
+    entry_fee: 0,
+    venue_name: "Olympic Comics and Cards",
+    venue_address: {
+      street: "4230 Pacific Ave SE",
+      city: "Lacey",
+      state: "WA",
+      zip: "98503",
+      lat: -1,
+      lng: -1,
     }
   }
 ];

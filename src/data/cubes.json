@@ -28,7 +28,7 @@
   },
   {
     "cubeCobraId": "butts",
-    "name": "Hyphen's Cube",
+    "name": "Fair Powered Cube",
     "curator": "hyphenated",
     "format": "Vintage",
     "cardCount": 720,
@@ -37,10 +37,10 @@
   },
   {
     "cubeCobraId": "3eb3f215-870d-4b5a-8f48-8d4e6e9d35ea",
-    "name": "Clone of The Definite Cube",
+    "name": "4am at Whataburger",
     "curator": "girlcoupon",
-    "format": "Modern",
-    "cardCount": 532,
+    "format": "Custom",
+    "cardCount": 540,
     "imageUrl": "images/cubes/3eb3f215-870d-4b5a-8f48-8d4e6e9d35ea.png",
     "imageAlt": "torrential gearhulk [kld-67] by Svetlin Velinov"
   },
@@ -58,7 +58,7 @@
     "name": "Synergy Unbound",
     "curator": "keithcubes",
     "format": "Unpowered ",
-    "cardCount": 740,
+    "cardCount": 720,
     "imageUrl": "images/cubes/Unbound.png",
     "imageAlt": "all suns' dawn [plst-5dn-81] by Glen Angus"
   },
@@ -139,7 +139,7 @@
     "name": "Nostalgia Remastered",
     "curator": "gchant",
     "format": "Powered Vintage",
-    "cardCount": 540,
+    "cardCount": 450,
     "imageUrl": "images/cubes/121af6e7-e221-4279-8926-949f8f09b92a.png",
     "imageAlt": "nostalgic dreams [tor-135] by Darrell Riche"
   },
@@ -154,7 +154,7 @@
   },
   {
     "cubeCobraId": "Gems",
-    "name": "Gems in the Rough",
+    "name": "Gems in the Rough Pauper",
     "curator": "datahack",
     "format": "Pauper Vintage",
     "cardCount": 540,
@@ -220,7 +220,7 @@
     "name": "Stare in Envy, Esper",
     "curator": "lycangirl",
     "format": "Eternal",
-    "cardCount": 450,
+    "cardCount": 413,
     "imageUrl": "images/cubes/eb81b182-0313-4217-b2a0-8862fa39e34f.png",
     "imageAlt": "doubling cube [10e-321] by Mark Tedin"
   },
@@ -241,5 +241,41 @@
     "cardCount": 360,
     "imageUrl": "images/cubes/5686693d-36d0-43b3-90b0-22ad3f0a8765.png",
     "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "Teetotaler",
+    "name": "The Teetotaler Bar Cube",
+    "curator": "ngondraludd",
+    "format": "Unpowered Legacy+",
+    "cardCount": 429,
+    "imageUrl": "images/cubes/Teetotaler.png",
+    "imageAlt": "attunement [wc00-tvdl61] by Randy Gallegos"
+  },
+  {
+    "cubeCobraId": "HighTide",
+    "name": "The Tide Is High (Mono Blue Micro Cube)",
+    "curator": "ngondraludd",
+    "format": "Unpowered Powered Vintage",
+    "cardCount": 279,
+    "imageUrl": "images/cubes/HighTide.png",
+    "imageAlt": "high tide [dmr-54] by Marc Simonetti"
+  },
+  {
+    "cubeCobraId": "fd142925-4f73-4b08-9c30-b4c2b35b5d3c",
+    "name": "Tempo DanDan (Forgetful Fish)",
+    "curator": "ngondraludd",
+    "format": "Unpowered Battle Box Desert Legacy",
+    "cardCount": 78,
+    "imageUrl": "images/cubes/fd142925-4f73-4b08-9c30-b4c2b35b5d3c.png",
+    "imageAlt": "dandan [arn-12] by Drew Tucker"
+  },
+  {
+    "cubeCobraId": "classicmodern",
+    "name": "Classic Modern Cube",
+    "curator": "triggrhappy0",
+    "format": "Modern",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/classicmodern.png",
+    "imageAlt": "splinter twin [mm2-129] by Goran Josic"
   }
 ]
