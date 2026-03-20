@@ -2,7 +2,14 @@ import { Address } from "./address";
 
 export const ALL_GROUPS: string = "all-groups";
 
-export type DayOfWeek = "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" | "Saturday" | "Sunday";
+export type DayOfWeek =
+  | "Monday"
+  | "Tuesday"
+  | "Wednesday"
+  | "Thursday"
+  | "Friday"
+  | "Saturday"
+  | "Sunday";
 
 export interface GroupMetadata {
   id: string;
@@ -33,7 +40,7 @@ export const groups: GroupMetadata[] = [
       state: "OR",
       zip: "97214",
       lat: 45.515354223938296,
-      lng: -122.66214899579316
+      lng: -122.66214899579316,
     },
   },
   {
@@ -51,8 +58,8 @@ export const groups: GroupMetadata[] = [
       state: "OR",
       zip: "97214",
       lat: 45.515354223938296,
-      lng: -122.66214899579316
-    }
+      lng: -122.66214899579316,
+    },
   },
   {
     id: "wayward",
@@ -69,8 +76,8 @@ export const groups: GroupMetadata[] = [
       state: "WA",
       zip: "98664",
       lat: 45.62526151479038,
-      lng: -122.58994285066382
-    }
+      lng: -122.58994285066382,
+    },
   },
   {
     id: "dapper",
@@ -87,8 +94,8 @@ export const groups: GroupMetadata[] = [
       state: "WA",
       zip: "98532",
       lat: 46.67073843889854,
-      lng: -122.97362294305759
-    }
+      lng: -122.97362294305759,
+    },
   },
   {
     id: "al_sports_bar",
@@ -106,8 +113,8 @@ export const groups: GroupMetadata[] = [
       state: "OR",
       zip: "97213",
       lat: 45.52687853832296,
-      lng: -122.60260561736582
-    }
+      lng: -122.60260561736582,
+    },
   },
   {
     id: "olympic",
@@ -126,6 +133,6 @@ export const groups: GroupMetadata[] = [
       zip: "98503",
       lat: -1,
       lng: -1,
-    }
-  }
+    },
+  },
 ];

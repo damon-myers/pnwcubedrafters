@@ -2,7 +2,13 @@
 import Image from "next/image";
 import { GroupMetadata } from "@/models/groups";
 
-import { CubeIcon, MapPinIcon, CurrencyDollarIcon, ClockIcon } from "@phosphor-icons/react";
+import {
+  CubeIcon,
+  MapPinIcon,
+  CurrencyDollarIcon,
+  ClockIcon,
+  CalendarIcon,
+} from "@phosphor-icons/react";
 import Link from "next/link";
 import { groupCubes } from "@/models/groupCubes";
 import { DayOfWeek } from "@/models/groups";
@@ -11,29 +17,42 @@ type LocationProps = {
   group: GroupMetadata;
 };
 
-const getDaysOfWeekString = (days: DayOfWeek | DayOfWeek[]) => {
-  if (typeof days === "string") {
-    return days;
-  } else if (days.length === 1) {
-    return days[0];
+/**
+ *   Pluralizes the day strings, joins multiple days together with a slash. */
+const getDaysOfWeekString = (group: GroupMetadata) => {
+  let days;
+  if (typeof group.days_of_week === "string") {
+    days = group.days_of_week + "s";
+  } else if (group.days_of_week.length === 1) {
+    days = group.days_of_week[0] + "s";
   } else {
-    return days.join("/");
+    days = group.days_of_week.map((day) => day + "s").join("/");
   }
-}
+
+  return days;
+};
 
 export default function Location({ group }: LocationProps) {
   return (
     <div className="my-4 key={index} bg-[#323232] p-4 items-center justify-center">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="m-4 flex-shrink-0 flex items-center justify-center">
-          <Image src={group.image_url} alt={group.image_alt} width={200} height={200} />
+          <Image
+            src={group.image_url}
+            alt={group.image_alt}
+            width={200}
+            height={200}
+          />
         </div>
         <div className="mx-4 flex-grow">
           <ul className="list-none py-2">
             <li>
               <div className="flex items-center text-lg p-2">
                 <ClockIcon size={28} className="mr-2" />
-                <span><b>{getDaysOfWeekString(group.days_of_week)}</b> at <b>{group.time}</b></span>
+                <span>
+                  {group.frequency && group.frequency + " on "}
+                  <b>{getDaysOfWeekString(group)}</b> at <b>{group.time}</b>
+                </span>
               </div>
               <div className="flex items-center text-lg p-2">
                 <Link
@@ -45,7 +64,10 @@ export default function Location({ group }: LocationProps) {
                   <MapPinIcon size={28} className="mr-2" />
                   <div>
                     <p>{group.venue_name}</p>
-                    <span>{group.venue_address.street}, {group.venue_address.city}, {group.venue_address.state}</span>
+                    <span>
+                      {group.venue_address.street}, {group.venue_address.city},{" "}
+                      {group.venue_address.state}
+                    </span>
                   </div>
                 </Link>
               </div>
@@ -67,8 +89,8 @@ export default function Location({ group }: LocationProps) {
               )}
             </li>
           </ul>
-        </div >
-      </div >
-    </div >
-  )
-};
+        </div>
+      </div>
+    </div>
+  );
+}

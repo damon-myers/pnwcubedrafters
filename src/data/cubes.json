@@ -277,5 +277,23 @@
     "cardCount": 540,
     "imageUrl": "images/cubes/classicmodern.png",
     "imageAlt": "splinter twin [mm2-129] by Goran Josic"
+  },
+  {
+    "cubeCobraId": "34c9e0a4-f377-498a-aede-34673849873e",
+    "name": "Quinn's expanded premodern cube",
+    "curator": "pizzabogle",
+    "format": "Eternal",
+    "cardCount": 449,
+    "imageUrl": "images/cubes/34c9e0a4-f377-498a-aede-34673849873e.png",
+    "imageAlt": "silvos, rogue elemental [ons-282] by Carl Critchlow"
+  },
+  {
+    "cubeCobraId": "modovintage",
+    "name": "MTGO Vintage Cube",
+    "curator": "dekkerglen",
+    "format": "Eternal",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/modovintage.png",
+    "imageAlt": "black lotus [vma-4] by Chris Rahn"
   }
 ]
