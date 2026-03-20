@@ -7,11 +7,9 @@ import {
   MapPinIcon,
   CurrencyDollarIcon,
   ClockIcon,
-  CalendarIcon,
 } from "@phosphor-icons/react";
 import Link from "next/link";
 import { groupCubes } from "@/models/groupCubes";
-import { DayOfWeek } from "@/models/groups";
 
 type LocationProps = {
   group: GroupMetadata;
