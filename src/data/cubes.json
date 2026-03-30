@@ -247,7 +247,7 @@
     "name": "The Teetotaler Bar Cube",
     "curator": "ngondraludd",
     "format": "Unpowered Legacy+",
-    "cardCount": 429,
+    "cardCount": 433,
     "imageUrl": "images/cubes/Teetotaler.png",
     "imageAlt": "attunement [wc00-tvdl61] by Randy Gallegos"
   },
@@ -283,17 +283,53 @@
     "name": "Quinn's expanded premodern cube",
     "curator": "pizzabogle",
     "format": "Eternal",
-    "cardCount": 449,
+    "cardCount": 451,
     "imageUrl": "images/cubes/34c9e0a4-f377-498a-aede-34673849873e.png",
     "imageAlt": "silvos, rogue elemental [ons-282] by Carl Critchlow"
   },
   {
     "cubeCobraId": "modovintage",
     "name": "MTGO Vintage Cube",
-    "curator": "dekkerglen",
+    "curator": "dekkaru",
     "format": "Eternal",
     "cardCount": 540,
     "imageUrl": "images/cubes/modovintage.png",
     "imageAlt": "black lotus [vma-4] by Chris Rahn"
+  },
+  {
+    "cubeCobraId": "deetz",
+    "name": "What's She Building in There?",
+    "curator": "deetz",
+    "format": "Unpowered Vintage",
+    "cardCount": 429,
+    "imageUrl": "images/cubes/deetz.png",
+    "imageAlt": "retrofitter foundry [c18-57] by Dmitry Burmak"
+  },
+  {
+    "cubeCobraId": "FairGame",
+    "name": "Fair Game",
+    "curator": "deetz",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/FairGame.png",
+    "imageAlt": "snapcaster mage [inr-478] by Volkan Baǵa"
+  },
+  {
+    "cubeCobraId": "3d282693-5d95-4cf4-a25b-568eeffd0393",
+    "name": "Bar Cube",
+    "curator": "pizzabogle",
+    "format": "Eternal",
+    "cardCount": 180,
+    "imageUrl": "images/cubes/3d282693-5d95-4cf4-a25b-568eeffd0393.png",
+    "imageAlt": "scorching shot [otj-145] by Caio Monteiro"
+  },
+  {
+    "cubeCobraId": "31f",
+    "name": "450 Cube",
+    "curator": "oji4life",
+    "format": "Unpowered Legacy+",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/31f.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
   }
 ]

@@ -41,5 +41,9 @@ export const groupCubes: Record<string, Array<string>> = {
     "classicmodern",
     "34c9e0a4-f377-498a-aede-34673849873e",
     "modovintage",
+    "deetz",
+    "FairGame",
+    "3d282693-5d95-4cf4-a25b-568eeffd0393", // Bar Cube
+    "31f",
   ],
 };
