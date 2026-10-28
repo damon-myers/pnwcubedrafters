@@ -119,13 +119,13 @@ export const groups: GroupMetadata[] = [
   {
     id: "olympic",
     image_url: "images/groups/olympic-comics-and-cards.png",
-    image_alt: "Gabi's Olympic Comics and Cards",
-    name: "Olympic Comics and Cards",
+    image_alt: "Gabi's Olympic Cards and Comics",
+    name: "Olympic Cards and Comics",
     frequency: "Semimonthly",
     days_of_week: ["Sunday"],
     time: "12:30PM",
     entry_fee: 0,
-    venue_name: "Olympic Comics and Cards",
+    venue_name: "Olympic Cards and Comics",
     venue_address: {
       street: "4230 Pacific Ave SE",
       city: "Lacey",
