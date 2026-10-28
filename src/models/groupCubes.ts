@@ -35,15 +35,30 @@ export const groupCubes: Record<string, Array<string>> = {
   ],
   al_sports_bar: ["naughtypauper", "5686693d-36d0-43b3-90b0-22ad3f0a8765"],
   olympic: [
-    "Teetotaler",
-    "HighTide",
-    "fd142925-4f73-4b08-9c30-b4c2b35b5d3c",
+    "NPC22",
+    "ArtisanAggro",
+    "85aa2026-26db-4c7f-8ecb-b6ddabb1c642", //Battlecruiser Commander Cube
     "classicmodern",
-    "34c9e0a4-f377-498a-aede-34673849873e",
-    "modovintage",
-    "deetz",
+    "cricketbar360",
+    "CricketCube",
     "FairGame",
-    "3d282693-5d95-4cf4-a25b-568eeffd0393", // Bar Cube
-    "31f",
+    "a19d8f74-15f6-4e64-8d3a-02a8278a2fab", //Innistrad Planar Cube
+    "neoplus",
+    "LOTRE",
+    "31f", //Oji's Mystical Archive
+    "pokecubejohto",
+    "Juice's%20juicy%20juice%20box",
+    "34c9e0a4-f377-498a-aede-34673849873e", //Quinn's Premodern Cube
+    "1a1b3846-85cf-492f-b00a-1b501fe9755a", //Quinn's Pauper Cube
+    "reaper", //MTG Universe Cube
+    "starwarscube",
+    "79b13b41-3c79-49a9-b2f1-8d0238b1c574", //The Rats' Artifact Cube
+    "Teetotaler",
+    "HighTide",          
+    "deetz", //What's She Building in There?
+    "asscube",
+    "250judgestower",
+    "3d282693-5d95-4cf4-a25b-568eeffd0393", //Quinn's Bar Cube
+    "fd142925-4f73-4b08-9c30-b4c2b35b5d3c", //Tempo DanDan	
   ],
 };
