@@ -2,6 +2,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 
 import { groupCubes } from '../models/groupCubes.ts';
 
@@ -16,7 +17,7 @@ const fetchCubeMetadata = async (cubeCobraId: string) => {
   return response.json();
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const cubes = [];
 
   for (const cubeCobraId of cubeIds) {
