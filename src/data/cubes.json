@@ -19,10 +19,10 @@
   },
   {
     "cubeCobraId": "MISYQ",
-    "name": "milo's synergy cube",
+    "name": "Synergy Forever",
     "curator": "insectoid",
-    "format": "Eternal",
-    "cardCount": 360,
+    "format": "Unpowered Legacy+",
+    "cardCount": 365,
     "imageUrl": "images/cubes/MISYQ.png",
     "imageAlt": "arcbound ravager [dst-100] by Carl Critchlow"
   },
@@ -31,7 +31,7 @@
     "name": "Fair Powered Cube",
     "curator": "hyphenated",
     "format": "Vintage",
-    "cardCount": 720,
+    "cardCount": 707,
     "imageUrl": "images/cubes/butts.png",
     "imageAlt": "mana vault [4ed-334] by Mark Tedin"
   },
@@ -106,15 +106,6 @@
     "cardCount": 1129,
     "imageUrl": "images/cubes/shadow.png",
     "imageAlt": "mistmeadow witch [c13-230] by Greg Staples"
-  },
-  {
-    "cubeCobraId": "2x100",
-    "name": "Another 100 Ornithopters",
-    "curator": "datahack",
-    "format": "Eternal",
-    "cardCount": 360,
-    "imageUrl": "images/cubes/2x100.png",
-    "imageAlt": "ornithopter [aer-167] by Mathias Kollros"
   },
   {
     "cubeCobraId": "Blizzard",
@@ -231,7 +222,7 @@
     "format": "Pauper ",
     "cardCount": 360,
     "imageUrl": "images/cubes/naughtypauper.png",
-    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+    "imageAlt": "sylvok lifestaff [som-209] by Martina Pilcerova"
   },
   {
     "cubeCobraId": "5686693d-36d0-43b3-90b0-22ad3f0a8765",
@@ -243,31 +234,31 @@
     "imageAlt": "doubling cube [10e-321] by Mark Tedin"
   },
   {
-    "cubeCobraId": "Teetotaler",
-    "name": "The Teetotaler Bar Cube",
-    "curator": "ngondraludd",
-    "format": "Unpowered Legacy+",
-    "cardCount": 433,
-    "imageUrl": "images/cubes/Teetotaler.png",
-    "imageAlt": "attunement [wc00-tvdl61] by Randy Gallegos"
+    "cubeCobraId": "NPC22",
+    "name": "2022 Nostalgia Peasant Cube ",
+    "curator": "jimcricket42",
+    "format": "Peasant Standard",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/NPC22.png",
+    "imageAlt": "hopeless nightmare [woe-95] by Dominik Mayer"
   },
   {
-    "cubeCobraId": "HighTide",
-    "name": "The Tide Is High (Mono Blue Micro Cube)",
-    "curator": "ngondraludd",
-    "format": "Unpowered Powered Vintage",
-    "cardCount": 279,
-    "imageUrl": "images/cubes/HighTide.png",
-    "imageAlt": "high tide [dmr-54] by Marc Simonetti"
+    "cubeCobraId": "ArtisanAggro",
+    "name": "Artisan Aggro",
+    "curator": "blastingmouz",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/ArtisanAggro.png",
+    "imageAlt": "rally at the hornburg [ltr-142] by Ekaterina Burmak"
   },
   {
-    "cubeCobraId": "fd142925-4f73-4b08-9c30-b4c2b35b5d3c",
-    "name": "Tempo DanDan (Forgetful Fish)",
-    "curator": "ngondraludd",
-    "format": "Unpowered Battle Box Desert Legacy",
-    "cardCount": 78,
-    "imageUrl": "images/cubes/fd142925-4f73-4b08-9c30-b4c2b35b5d3c.png",
-    "imageAlt": "dandan [arn-12] by Drew Tucker"
+    "cubeCobraId": "85aa2026-26db-4c7f-8ecb-b6ddabb1c642",
+    "name": "Battlecruiser Commander Cube",
+    "curator": "pizzabogle",
+    "format": "Eternal",
+    "cardCount": 528,
+    "imageUrl": "images/cubes/85aa2026-26db-4c7f-8ecb-b6ddabb1c642.png",
+    "imageAlt": "extinguisher battleship [eoe-242] by Danny Schwartz"
   },
   {
     "cubeCobraId": "classicmodern",
@@ -279,31 +270,22 @@
     "imageAlt": "splinter twin [mm2-129] by Goran Josic"
   },
   {
-    "cubeCobraId": "34c9e0a4-f377-498a-aede-34673849873e",
-    "name": "Quinn's expanded premodern cube",
-    "curator": "pizzabogle",
-    "format": "Eternal",
-    "cardCount": 451,
-    "imageUrl": "images/cubes/34c9e0a4-f377-498a-aede-34673849873e.png",
-    "imageAlt": "silvos, rogue elemental [ons-282] by Carl Critchlow"
+    "cubeCobraId": "cricketbar360",
+    "name": "Cricket Bar Cube 360",
+    "curator": "jimcricket42",
+    "format": "Budget Bar",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/cricketbar360.png",
+    "imageAlt": "immortal coil [ala-79] by Dan Murayama Scott"
   },
   {
-    "cubeCobraId": "modovintage",
-    "name": "MTGO Vintage Cube",
-    "curator": "dekkaru",
-    "format": "Eternal",
-    "cardCount": 540,
-    "imageUrl": "images/cubes/modovintage.png",
-    "imageAlt": "black lotus [vma-4] by Chris Rahn"
-  },
-  {
-    "cubeCobraId": "deetz",
-    "name": "What's She Building in There?",
-    "curator": "deetz",
-    "format": "Unpowered Vintage",
-    "cardCount": 429,
-    "imageUrl": "images/cubes/deetz.png",
-    "imageAlt": "retrofitter foundry [c18-57] by Dmitry Burmak"
+    "cubeCobraId": "CricketCube",
+    "name": "Cricket Cube",
+    "curator": "jimcricket42",
+    "format": "Unpowered Legacy",
+    "cardCount": 405,
+    "imageUrl": "images/cubes/CricketCube.png",
+    "imageAlt": "myr incubator [mrd-212] by Alex Horley-Orlandelli"
   },
   {
     "cubeCobraId": "FairGame",
@@ -315,6 +297,150 @@
     "imageAlt": "snapcaster mage [inr-478] by Volkan Baǵa"
   },
   {
+    "cubeCobraId": "a19d8f74-15f6-4e64-8d3a-02a8278a2fab",
+    "name": "Innistrad Planar Cube",
+    "curator": "johnhockersmith1",
+    "format": "Eternal",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/a19d8f74-15f6-4e64-8d3a-02a8278a2fab.png",
+    "imageAlt": "evolving wilds [inr-278] by Cliff Childs"
+  },
+  {
+    "cubeCobraId": "neoplus",
+    "name": "Kamigawa Neon Dynasty Limited+",
+    "curator": "looterillcore",
+    "format": "Unpowered Budget Standard",
+    "cardCount": 425,
+    "imageUrl": "images/cubes/neoplus.png",
+    "imageAlt": "boseiju, who shelters all [chk-273] by Ralph Horsley"
+  },
+  {
+    "cubeCobraId": "LOTRE",
+    "name": "The Lord of the Rings Expanded Cube",
+    "curator": "magesandmentors",
+    "format": "Unpowered Legacy+",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/LOTRE.png",
+    "imageAlt": "the one ring [ltr-451] by Marta Nael"
+  },
+  {
+    "cubeCobraId": "31f",
+    "name": "Oji's Mystical Archive",
+    "curator": "oji4life",
+    "format": "Unpowered Legacy+",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/31f.png",
+    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+  },
+  {
+    "cubeCobraId": "pokecubejohto",
+    "name": "Pokécube",
+    "curator": "triggrhappy0",
+    "format": "Custom",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/pokecubejohto.png",
+    "imageAlt": "kappa cannoneer [eoc-74] by Jesper Ejsing"
+  },
+  {
+    "cubeCobraId": "Juice's%20juicy%20juice%20box",
+    "name": "Powered Juice Cube",
+    "curator": "tbombadil",
+    "format": "Powered Vintage",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/Juice's%20juicy%20juice%20box.png",
+    "imageAlt": "ancestral recall [2ed-48] by Mark Poole"
+  },
+  {
+    "cubeCobraId": "34c9e0a4-f377-498a-aede-34673849873e",
+    "name": "Quinn's expanded premodern cube",
+    "curator": "pizzabogle",
+    "format": "Eternal",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/34c9e0a4-f377-498a-aede-34673849873e.png",
+    "imageAlt": "silvos, rogue elemental [ons-282] by Carl Critchlow"
+  },
+  {
+    "cubeCobraId": "1a1b3846-85cf-492f-b00a-1b501fe9755a",
+    "name": "Quinn's pauper cube",
+    "curator": "pizzabogle",
+    "format": "Pauper ",
+    "cardCount": 450,
+    "imageUrl": "images/cubes/1a1b3846-85cf-492f-b00a-1b501fe9755a.png",
+    "imageAlt": "gravedigger [6ed-134] by Dermot Power"
+  },
+  {
+    "cubeCobraId": "reaper",
+    "name": "Reaper's MTG Universe Cube",
+    "curator": "reaper",
+    "format": "Unpowered Vintage",
+    "cardCount": 540,
+    "imageUrl": "images/cubes/reaper.png",
+    "imageAlt": "sulfurous springs [ice-360] by Phil Foglio"
+  },
+  {
+    "cubeCobraId": "starwarscube",
+    "name": "Star Wars Cube",
+    "curator": "triggrhappy0",
+    "format": "Custom",
+    "cardCount": 360,
+    "imageUrl": "images/cubes/starwarscube.png",
+    "imageAlt": "fiendslayer paladin [e01-8] by Wesley Burt"
+  },
+  {
+    "cubeCobraId": "79b13b41-3c79-49a9-b2f1-8d0238b1c574",
+    "name": "The Rats' Artifacts Cube",
+    "curator": "therats",
+    "format": "Unpowered undefined",
+    "cardCount": 384,
+    "imageUrl": "images/cubes/79b13b41-3c79-49a9-b2f1-8d0238b1c574.png",
+    "imageAlt": "whir of invention [aer-49] by Christine Choi"
+  },
+  {
+    "cubeCobraId": "Teetotaler",
+    "name": "The Teetotaler Bar Cube",
+    "curator": "looterillcore",
+    "format": "Unpowered Legacy+",
+    "cardCount": 413,
+    "imageUrl": "images/cubes/Teetotaler.png",
+    "imageAlt": "attunement [wc00-tvdl61] by Randy Gallegos"
+  },
+  {
+    "cubeCobraId": "HighTide",
+    "name": "The Tide Is High (Mono Blue Micro Cube)",
+    "curator": "looterillcore",
+    "format": "Unpowered Powered Vintage",
+    "cardCount": 279,
+    "imageUrl": "images/cubes/HighTide.png",
+    "imageAlt": "high tide [dmr-54] by Marc Simonetti"
+  },
+  {
+    "cubeCobraId": "deetz",
+    "name": "What's She Building in There?",
+    "curator": "deetz",
+    "format": "Unpowered Vintage",
+    "cardCount": 420,
+    "imageUrl": "images/cubes/deetz.png",
+    "imageAlt": "retrofitter foundry [c18-57] by Dmitry Burmak"
+  },
+  {
+    "cubeCobraId": "asscube",
+    "name": "Assassin's Cube",
+    "curator": "triggrhappy0",
+    "format": "Modern",
+    "cardCount": 168,
+    "imageUrl": "images/cubes/asscube.png",
+    "imageAlt": "ezio auditore da firenze [acr-203] by Fajareka Setiawan"
+  },
+  {
+    "cubeCobraId": "250judgestower",
+    "name": "Judge's Tower",
+    "curator": "triggrhappy0",
+    "format": "Judge Tower ",
+    "cardCount": 250,
+    "imageUrl": "images/cubes/250judgestower.png",
+    "imageAlt": "rules lawyer [ulst-7] by Sean Murray"
+  },
+  {
     "cubeCobraId": "3d282693-5d95-4cf4-a25b-568eeffd0393",
     "name": "Bar Cube",
     "curator": "pizzabogle",
@@ -324,12 +450,12 @@
     "imageAlt": "scorching shot [otj-145] by Caio Monteiro"
   },
   {
-    "cubeCobraId": "31f",
-    "name": "450 Cube",
-    "curator": "oji4life",
-    "format": "Unpowered Legacy+",
-    "cardCount": 450,
-    "imageUrl": "images/cubes/31f.png",
-    "imageAlt": "doubling cube [10e-321] by Mark Tedin"
+    "cubeCobraId": "fd142925-4f73-4b08-9c30-b4c2b35b5d3c",
+    "name": "Tempo DanDan (Forgetful Fish)",
+    "curator": "looterillcore",
+    "format": "Unpowered Battle Box Desert Legacy",
+    "cardCount": 78,
+    "imageUrl": "images/cubes/fd142925-4f73-4b08-9c30-b4c2b35b5d3c.png",
+    "imageAlt": "dandan [arn-12] by Drew Tucker"
   }
 ]
