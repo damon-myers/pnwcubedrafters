@@ -45,10 +45,12 @@ export const groupCubes: Record<string, Array<string>> = {
     "CricketCube",
     "45084f7a-4032-48b7-8667-0bc50bc3f25d", //EOE Planar Twobert
     "FairGame",
+	"Aaaaaaaaaaaaaaa", //Hanging on the Edge of a Cliff
     "a19d8f74-15f6-4e64-8d3a-02a8278a2fab", //Innistrad Planar Cube
     "250judgestower",
     "neoplus",
     "LOTRE",
+	"emenems", //Mages and Minions
     "31f", //Oji's Mystical Archive
     "pokecubejohto",
     "Juice's%20juicy%20juice%20box",

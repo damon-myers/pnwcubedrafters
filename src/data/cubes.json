@@ -333,6 +333,15 @@
     "imageAlt": "snapcaster mage [inr-478] by Volkan Baǵa"
   },
   {
+    "cubeCobraId": "Aaaaaaaaaaaaaaa",
+    "name": "hanging on the edge of a cliff",
+    "curator": "deetz",
+    "format": "Eternal",
+    "cardCount": 362,
+    "imageUrl": "images/cubes/Aaaaaaaaaaaaaaa.png",
+    "imageAlt": "sever the bloodline [cma-67] by Clint Cearley"
+  },
+  {
     "cubeCobraId": "a19d8f74-15f6-4e64-8d3a-02a8278a2fab",
     "name": "Innistrad Planar Cube",
     "curator": "johnhockersmith1",
@@ -367,6 +376,15 @@
     "cardCount": 360,
     "imageUrl": "images/cubes/LOTRE.png",
     "imageAlt": "the one ring [ltr-451] by Marta Nael"
+  },
+  {
+    "cubeCobraId": "emenems",
+    "name": "Mages and Minions",
+    "curator": "deetz",
+    "format": "Eternal",
+    "cardCount": 362,
+    "imageUrl": "images/cubes/emenems.png",
+    "imageAlt": "grim lavamancer [tor-100] by Jim Nelson"
   },
   {
     "cubeCobraId": "31f",
@@ -499,7 +517,7 @@
     "name": "YPG Cube",
     "curator": "pawnstorm",
     "format": "Unpowered undefined",
-    "cardCount": 361,
+    "cardCount": 360,
     "imageUrl": "images/cubes/ypg-cube.png",
     "imageAlt": "etched monstrosity [mm2-210] by Steven Belledin"
   }
