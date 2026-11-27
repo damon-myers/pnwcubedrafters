@@ -1,4 +1,5 @@
 import cubeData from '../data/cubes.json'
+import { cubeIdForUrl } from './cubeIds'
 
 export interface CubeMetadata {
   name: string;
@@ -17,5 +18,5 @@ export const getCubeById = Object.fromEntries(
 );
 
 export const getCubeUrl = (cubeCobraId: string) => {
-  return `https://cubecobra.com/cube/overview/${cubeCobraId}`;
+  return `https://cubecobra.com/cube/overview/${cubeIdForUrl(cubeCobraId)}`;
 }

@@ -4,13 +4,14 @@ import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
 
+import { cubeIdForFileName, cubeIdForUrl } from '../models/cubeIds.ts';
 import { groupCubes } from '../models/groupCubes.ts';
 
 const cubeIds = Object.values(groupCubes).flat();
 
 
 const fetchCubeMetadata = async (cubeCobraId: string) => {
-  const response = await fetch(`https://cubecobra.com/cube/api/cubejson/${cubeCobraId}`);
+  const response = await fetch(`https://cubecobra.com/cube/api/cubejson/${cubeIdForUrl(cubeCobraId)}`);
   if (!response.ok) {
     throw new Error(`Failed to fetch cube metadata: ${response.statusText}`);
   }
@@ -40,7 +41,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
         throw new Error(`Failed to fetch cube image: ${imageResponse.statusText}`);
       }
       const imageBuffer = await imageResponse.blob();
-      const imageFileName = `${cubeCobraId}.png`;
+      const imageFileName = `${cubeIdForFileName(cubeCobraId)}.png`;
       const imageFilePath = path.join(process.cwd(), 'public', 'images', 'cubes', imageFileName);
       fs.writeFileSync(imageFilePath, await imageBuffer.bytes());
       const imageAlt = `${cubeMetadata["image"]["imageName"]} by ${cubeMetadata["image"]["artist"]}`
