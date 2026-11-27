@@ -13,7 +13,7 @@ export default function CubeCard({ cube }: CubeCardProps) {
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        backgroundImage: `url(${cube.imageUrl})`,
+        backgroundImage: `url("${cube.imageUrl}")`,
         backgroundClip: "padding-box",
         backgroundSize: "100% 100%",
         backgroundPosition: "center",
